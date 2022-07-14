@@ -494,15 +494,19 @@ em {
   grid-template-rows: auto;
 }
 
-.container.usp-section {
+.section.usp {
   display: block;
-  padding: 40px 75px 60px;
+  padding: 120px 75px 40px;
   grid-auto-columns: 1fr;
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   border-radius: 2px;
+}
+
+.container.usp-section > h1 {
+  text-align: center;
 }
 
 .container.team {
