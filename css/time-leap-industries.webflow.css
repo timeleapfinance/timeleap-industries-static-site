@@ -217,7 +217,7 @@ em {
 .section.hero-1024-l {
   position: relative;
   overflow: hidden;
-  height: auto;
+  height: 82vh;
   margin-bottom: 0px;
 }
 
@@ -2030,7 +2030,7 @@ em {
 .hero-1024-l-bg-1 {
   position: absolute;
   left: 0%;
-  top: 0%;
+  top: 9%;
   right: 0%;
   bottom: auto;
   width: auto;
@@ -2057,7 +2057,7 @@ em {
 .hero-bg-1 {
   position: absolute;
   left: 0%;
-  top: 0%;
+  top: -2%;
   right: 0%;
   bottom: auto;
   width: auto;
@@ -2504,7 +2504,7 @@ em {
   }
 
   .hero-safe-edge {
-    height: 150px;
+    height: 85px;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(27%, transparent), color-stop(97%, #000));
     background-image: linear-gradient(180deg, transparent 27%, #000 97%);
   }
@@ -2534,7 +2534,7 @@ em {
   }
 
   .section.hero {
-    height: 100vh;
+    height: 93vh;
   }
 
   .key-feature-video-wrapper {
