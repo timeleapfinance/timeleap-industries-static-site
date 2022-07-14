@@ -217,7 +217,7 @@ em {
 .section.hero-1024-l {
   position: relative;
   overflow: hidden;
-  height: 82vh;
+  height: auto;
   margin-bottom: 0px;
 }
 
@@ -2551,7 +2551,11 @@ em {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1919px) {
+  .section.hero {
+    height: 99vh;
+  }
+
   .section.cta {
     overflow: hidden;
     background-color: #000;
