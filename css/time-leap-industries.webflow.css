@@ -689,7 +689,7 @@ em {
   align-items: flex-start;
 }
 
-.wrapper.phone-right {
+.wrapper.intro-right {
   width: auto;
   height: 100%;
   max-width: 360px;
@@ -1388,7 +1388,7 @@ em {
   height: 100%;
 }
 
-.phone-video-wrapper {
+.intro-video-wrapper {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1409,7 +1409,7 @@ em {
   transform-origin: 50% 100%;
 }
 
-.phone-video {
+.intro-video {
   position: absolute;
   left: 0%;
   top: 0%;
@@ -1420,7 +1420,7 @@ em {
   height: 100%;
 }
 
-.phone-static {
+.intro-static {
   width: 100%;
 }
 
@@ -1860,7 +1860,7 @@ em {
   display: none;
 }
 
-.phone-dim {
+.intro-dim {
   position: absolute;
   left: 0%;
   top: auto;
@@ -2113,7 +2113,7 @@ em {
   align-items: flex-start;
 }
 
-.fundraising-left.phone-right {
+.fundraising-left.fundraising-right {
   width: auto;
   height: 100%;
   max-width: 360px;
@@ -2184,7 +2184,7 @@ em {
   align-items: stretch;
 }
 
-.fundraising-right.phone-right {
+.fundraising-right.fundraising-right {
   width: auto;
   height: 100%;
   max-width: 360px;
@@ -3511,7 +3511,7 @@ em {
     font-size: 14px;
   }
 
-  .wrapper.phone-right {
+  .wrapper.intro-right {
     min-width: auto;
     margin-bottom: 0px;
     -webkit-box-pack: start;
@@ -3751,7 +3751,7 @@ em {
     margin-bottom: 0px;
   }
 
-  .phone-video-wrapper {
+  .intro-video-wrapper {
     margin-top: -30px;
   }
 
@@ -3898,7 +3898,7 @@ em {
     margin-bottom: 0px;
   }
 
-  .fundraising-left.phone-right {
+  .fundraising-left.fundraising-right {
     min-width: auto;
     margin-bottom: 0px;
     -webkit-box-pack: start;
@@ -3912,7 +3912,7 @@ em {
     margin-bottom: 0px;
   }
 
-  .fundraising-right.phone-right {
+  .fundraising-right.fundraising-right {
     min-width: auto;
     margin-bottom: 0px;
     -webkit-box-pack: start;
@@ -4098,12 +4098,12 @@ em {
     font-weight: 300;
   }
 
-  .wrapper.phone-right {
+  .wrapper.intro-right {
     z-index: 10;
     margin-bottom: -45px;
   }
 
-  .wrapper.phone-left {
+  .wrapper.intro-left {
     z-index: 100;
     -webkit-box-align: stretch;
     -webkit-align-items: stretch;
@@ -4299,7 +4299,7 @@ em {
     margin-left: auto;
   }
 
-  .phone-video-wrapper {
+  .intro-video-wrapper {
     width: 70vw;
     margin-top: 0px;
   }
@@ -4400,7 +4400,7 @@ em {
     display: block;
   }
 
-  .phone-dim {
+  .intro-dim {
     display: block;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(47%, transparent), color-stop(89%, #000));
     background-image: linear-gradient(180deg, transparent 47%, #000 89%);
@@ -4541,12 +4541,12 @@ em {
     align-items: center;
   }
 
-  .fundraising-left.phone-right {
+  .fundraising-left.fundraising-right {
     z-index: 10;
     margin-bottom: -45px;
   }
 
-  .fundraising-left.phone-left {
+  .fundraising-left.fundraising-left {
     z-index: 100;
     -webkit-box-align: stretch;
     -webkit-align-items: stretch;
@@ -4572,12 +4572,12 @@ em {
     align-items: center;
   }
 
-  .fundraising-right.phone-right {
+  .fundraising-right.fundraising-right {
     z-index: 10;
     margin-bottom: -45px;
   }
 
-  .fundraising-right.phone-left {
+  .fundraising-right.fundraising-left {
     z-index: 100;
     -webkit-box-align: stretch;
     -webkit-align-items: stretch;
