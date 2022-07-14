@@ -4484,7 +4484,7 @@ em {
 
   .hero-p-bg-1 {
     width: 100vw;
-    height: 100%;
+    height: 90vh;
     -o-object-fit: cover;
     object-fit: cover;
   }
@@ -4512,7 +4512,7 @@ em {
   .hero-mobile-p-bg-0 {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 90vh;
     -o-object-fit: cover;
     object-fit: cover;
   }
