@@ -965,7 +965,7 @@ em {
 .paragraph.bgsection {
   font-weight: 400;
   text-align: center;
-  text-shadow: 1px 1px 9px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 20px #000000;
 }
 
 .large-coin {
@@ -3042,7 +3042,7 @@ em {
 
   .paragraph.bgsection {
     text-align: left;
-    text-shadow: 1px 1px 9px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 20px #000000;
   }
 
   .large-coin {
