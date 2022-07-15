@@ -994,6 +994,7 @@ em {
 .h2.bgsection {
   position: relative;
   text-shadow: 1px 1px 20px #ff250d;
+  text-align: center;
 }
 
 .hero-dim {
@@ -1529,11 +1530,11 @@ em {
 .gameplay-image {
   position: relative;
   top: 0%;
-  right: -15%;
-  width: 105%;
+  right: 0%;
+  left: 10%;
+  width: 75%;
   height: auto;
   max-width: 105%;
-  margin-left: -20%;
 }
 
 .h3.usp {
@@ -2751,7 +2752,8 @@ em {
   }
 
   .gameplay-image {
-    margin-left: -15%;
+    position: relative;
+    left: 20%;
   }
 
   .bgsection-bg-image.hide {
@@ -2794,6 +2796,11 @@ em {
 
   .h3.usp {
     min-height: 54px;
+  }
+
+  .gameplay-image {
+    position: relative;
+    top: 15%;
   }
 
   .fundraising-left {
@@ -3221,11 +3228,11 @@ em {
   }
 
   .gameplay-image {
-    right: 0%;
+    position: relative;
+    left: 0%;
     bottom: 45px;
-    width: 100%;
+    width: 84vw;
     margin-bottom: -45px;
-    margin-left: 0%;
     -webkit-box-ordinal-group: 0;
     -webkit-order: -1;
     -ms-flex-order: -1;
@@ -3879,7 +3886,7 @@ em {
   }
 
   .gameplay-image {
-    width: 100%;
+    width: 90vw;
     max-width: none;
     margin-bottom: -30px;
     -webkit-box-ordinal-group: 0;
@@ -4431,9 +4438,8 @@ em {
   }
 
   .gameplay-image {
-    width: 122%;
+    width: 90vw;
     margin-bottom: -20px;
-    margin-left: -10%;
   }
 
   .team-card {
