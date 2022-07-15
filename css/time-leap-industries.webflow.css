@@ -1064,7 +1064,7 @@ em {
   margin-right: 0px;
   color: #fff;
   font-size: 16px;
-  text-align: right;
+  text-align: left;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -1542,6 +1542,7 @@ em {
 
 .h3.usp.desktop {
   display: block;
+
 }
 
 .h3.usp.tablet {
@@ -2131,7 +2132,7 @@ em {
 .hero-1024-l-bg-1 {
   position: absolute;
   left: 0%;
-  top: 9%;
+  top: 12%;
   right: 0%;
   bottom: auto;
   width: auto;
@@ -2779,12 +2780,37 @@ em {
 }
 
 @media screen and (max-width: 1279px) {
+  .container.hero {
+    margin-top: -1.5%;
+  }
+
   .hero-safe-edge {
     position: absolute;
     left: 0%;
     top: auto;
     right: 0%;
     bottom: -12%;
+  }
+
+  .h3.usp {
+    min-height: 54px;
+  }
+
+  .fundraising-left {
+    width: 40vw;
+  }
+
+  .fundraising-right {
+    width: 40vw;
+    margin-bottom: -110px;
+  }
+
+  .fundraising-container {
+    height: 35vw;
+  }
+
+  .roadmap-line {
+    margin-left: 47px;
   }
 }
 
@@ -2813,9 +2839,18 @@ em {
     margin-top: -60px;
   }
 
+  .section.usp {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .section.bgsection {
     height: 650px;
     margin-top: 30px;
+  }
+
+  .fundraising-right {
+    margin-bottom: -60px;
   }
 
   .section.fundraising {
@@ -3051,7 +3086,7 @@ em {
   }
 
   .h2.center-align {
-    text-align: left;
+    text-align: center;
   }
 
   .h2.usp {
@@ -3199,6 +3234,7 @@ em {
 
   .h3.usp {
     text-align: left;
+    min-height: 48px;
   }
 
   .h3.usp.desktop {
@@ -4067,6 +4103,11 @@ em {
     padding-top: 90px;
   }
 
+  #trailer > .container._1-col-center {
+      padding-right: 0px;
+      padding-left: 0px;
+  }
+
   .section.utility {
     margin-top: 60px;
   }
@@ -4284,6 +4325,10 @@ em {
     margin-right: 0px;
   }
 
+  .fundraising-left {
+    width: 90vw;
+  }
+
   .fundraising-card {
     padding-right: 10px;
     grid-column-gap: 15px;
@@ -4301,7 +4346,7 @@ em {
   }
 
   .roadmap-line.last {
-    margin-bottom: 90px;
+    margin-bottom: 44px;
     margin-left: 18px;
   }
 
@@ -4611,8 +4656,7 @@ em {
   }
 
   .fundraising-list {
-    width: 260px;
-    padding-left: 53px;
+    width: auto;
   }
 
   .fundraising-left {
@@ -4651,6 +4695,7 @@ em {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    width: auto;
   }
 
   .fundraising-right.fundraising-right {
