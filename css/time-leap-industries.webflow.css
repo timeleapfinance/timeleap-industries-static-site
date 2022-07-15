@@ -131,7 +131,7 @@ em {
   background-color: #000;
 }
 
-.section.cta {
+.section.bgsection {
   position: relative;
   z-index: 0;
   display: -webkit-box;
@@ -152,6 +152,19 @@ em {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+.section.bgsection .trailer-play-button {
+  width: 30%;
+  text-shadow: 1px 1px 20px #ff250d;
+}
+
+.section.bgsection > .container > .play-trailer {
+  transition: transform 0.2s;
+}
+
+.section.bgsection > .container > .play-trailer:hover {
+  transform: scale(1.1);
 }
 
 .section.utility {
@@ -950,7 +963,7 @@ em {
   text-align: center;
 }
 
-.paragraph.cta {
+.paragraph.bgsection {
   font-weight: 400;
   text-align: center;
   text-shadow: 1px 1px 9px rgba(0, 0, 0, 0.5);
@@ -979,7 +992,7 @@ em {
   text-align: center;
 }
 
-.h2.cta {
+.h2.bgsection {
   position: relative;
   text-shadow: 1px 1px 20px #ff250d;
 }
@@ -1691,7 +1704,7 @@ em {
   margin-top: 141px;
 }
 
-.cta-image {
+.bgsection-image {
   position: absolute;
   left: 0%;
   top: 0%;
@@ -1720,11 +1733,40 @@ em {
   background-repeat: no-repeat;
 }
 
-.cta-bg-image.hide {
+.trailerbg-image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
+  width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/trailerbg.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bgsection-bg-image.hide {
   display: none;
 }
 
-.cta-image-dim {
+.bgsection-image-dim {
   position: absolute;
   left: 0%;
   top: 0%;
@@ -1737,7 +1779,7 @@ em {
   background-image: linear-gradient(180deg, #000 5%, transparent 60%);
 }
 
-.cta-image-dim.bottom {
+.bgsection-image-dim.bottom {
   left: 0%;
   top: auto;
   right: 0%;
@@ -2478,7 +2520,7 @@ em {
 }
 
 @media screen and (min-width: 1280px) {
-  .section.cta {
+  .section.bgsection {
     height: 850px;
   }
 
@@ -2530,11 +2572,11 @@ em {
     display: none;
   }
 
-  .cta-image-dim {
+  .bgsection-image-dim {
     height: 850px;
   }
 
-  .cta-image-dim.bottom {
+  .bgsection-image-dim.bottom {
     height: 700px;
   }
 
@@ -2616,7 +2658,7 @@ em {
     height: 99vh;
   }
 
-  .section.cta {
+  .section.bgsection {
     overflow: hidden;
     background-color: #000;
   }
@@ -2712,7 +2754,7 @@ em {
     margin-left: -15%;
   }
 
-  .cta-bg-image.hide {
+  .bgsection-bg-image.hide {
     display: none;
   }
 
@@ -2772,7 +2814,7 @@ em {
     margin-top: -60px;
   }
 
-  .section.cta {
+  .section.bgsection {
     height: 650px;
     margin-top: 30px;
   }
@@ -2999,7 +3041,7 @@ em {
     text-align: left;
   }
 
-  .paragraph.cta {
+  .paragraph.bgsection {
     text-align: left;
     text-shadow: 1px 1px 9px rgba(0, 0, 0, 0.5);
   }
@@ -3193,11 +3235,11 @@ em {
     margin-top: 113px;
   }
 
-  .cta-image-dim {
+  .bgsection-image-dim {
     height: 600px;
   }
 
-  .cta-image-dim.bottom {
+  .bgsection-image-dim.bottom {
     height: 500px;
   }
 
@@ -3419,7 +3461,7 @@ em {
     margin-top: -300px;
   }
 
-  .section.cta {
+  .section.bgsection {
     height: 450px;
     margin-top: 0px;
     padding-top: 100px;
@@ -3845,11 +3887,11 @@ em {
     margin-top: 15vw;
   }
 
-  .cta-image-dim {
+  .bgsection-image-dim {
     height: 450px;
   }
 
-  .cta-image-dim.bottom {
+  .bgsection-image-dim.bottom {
     height: 300px;
   }
 
@@ -4020,7 +4062,7 @@ em {
     margin-top: -650px;
   }
 
-  .section.cta {
+  .section.bgsection {
     height: 550px;
     margin-top: 0px;
     padding-top: 90px;
@@ -4217,7 +4259,7 @@ em {
     text-align: center;
   }
 
-  .paragraph.cta {
+  .paragraph.bgsection {
     text-align: center;
   }
 
@@ -4235,7 +4277,7 @@ em {
     text-align: center;
   }
 
-  .h2.cta {
+  .h2.bgsection {
     text-align: center;
   }
 
@@ -4378,20 +4420,27 @@ em {
     margin-top: 38vw;
   }
 
-  .cta-image {
+  .bgsection-image {
     background-image: url('../images/ctabg.jpg');
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
-  .cta-image-dim {
+  .trailerbg-image {
+    background-image: url('../images/trailerbg.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .bgsection-image-dim {
     top: 0%;
     height: 450px;
     opacity: 1;
   }
 
-  .cta-image-dim.bottom {
+  .bgsection-image-dim.bottom {
     height: 460px;
     margin-bottom: 0px;
   }
