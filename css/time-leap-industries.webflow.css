@@ -2203,6 +2203,7 @@ em {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: max-content;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2214,10 +2215,9 @@ em {
   align-items: flex-start;
 }
 
-.fundraising-left.fundraising-right {
-  width: auto;
+.fundraising-right {
+  width: max-content;
   height: 100%;
-  max-width: 360px;
   min-width: 280px;
   margin-bottom: -100px;
   -webkit-box-pack: center;
